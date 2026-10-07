@@ -616,9 +616,9 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Canvas",
                 61797,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                new Vector4(0.6f, 0f, 0.3f, 1f),
-                new Vector4(0.8f, 0f, 0.4f, 1f),
                 new Vector4(0.7f, 0f, 0.35f, 1f),
+                new Vector4(0.8f, 0f, 0.4f, 1f),
+                new Vector4(0.75f, 0f, 0.375f, 1f),
                 new Vector4(0.8f, 0f, 0.4f, 1f),
                 false
             );
@@ -796,7 +796,7 @@ namespace CGNiksCustomMaterialVariants
             new DyeRecipe(
                 "Pink Leather Recipe",
                 37201,
-                [23206u, 47760u, 63204u],
+                DyeingAPI.Core.leatherPrefabHashes,
                 [10201u],
                 false,
                 [27100u],
@@ -806,7 +806,7 @@ namespace CGNiksCustomMaterialVariants
             new DyeRecipe(
                 "Pink Canvas Recipe",
                 37202,
-                [34570u],
+                DyeingAPI.Core.canvasPrefabHashes,
                 [10202u],
                 false,
                 [27100u],
@@ -816,7 +816,7 @@ namespace CGNiksCustomMaterialVariants
             new DyeRecipe(
                 "Pink Rope Recipe",
                 37203,
-                [43836u],
+                DyeingAPI.Core.ropePrefabHashes,
                 [10203u],
                 false,
                 [27100u],
