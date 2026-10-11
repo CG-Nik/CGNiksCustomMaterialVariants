@@ -450,9 +450,9 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Leather",
                 37311,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                new Vector4(0.6f, 0f, 0.3f, 1f),
-                new Vector4(0.8f, 0f, 0.4f, 1f),
-                new Vector4(1f, 0f, 0.5f, 1f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 2/3f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.75f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 1f),
                 false
             );
 
@@ -616,10 +616,10 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Canvas",
                 61797,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                new Vector4(0.7f, 0f, 0.35f, 1f),
-                new Vector4(0.8f, 0f, 0.4f, 1f),
-                new Vector4(0.75f, 0f, 0.375f, 1f),
-                new Vector4(0.8f, 0f, 0.4f, 1f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 7/8f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 15/16f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f),
                 false
             );
 
@@ -771,8 +771,8 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Rope",
                 35217,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                new Vector4(0.6f, 0f, 0.3f, 1f),
-                new Vector4(0.8f, 0f, 0.4f, 1f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 0.75f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f),
                 false
             );
 
@@ -800,7 +800,8 @@ namespace CGNiksCustomMaterialVariants
                 [10201u],
                 false,
                 [27100u],
-                37311u
+                37311u,
+                [Color.HSVToRGB(312f/360f, 0.915f, 0.87f)]
             );
 
             new DyeRecipe(
@@ -810,7 +811,8 @@ namespace CGNiksCustomMaterialVariants
                 [10202u],
                 false,
                 [27100u],
-                61797u
+                61797u,
+                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)]
             );
 
             new DyeRecipe(
@@ -820,7 +822,8 @@ namespace CGNiksCustomMaterialVariants
                 [10203u],
                 false,
                 [27100u],
-                35217u
+                35217u,
+                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)]
             );
         }
     }
