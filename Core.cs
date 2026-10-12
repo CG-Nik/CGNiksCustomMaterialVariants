@@ -143,9 +143,9 @@ namespace CGNiksCustomMaterialVariants
                 "Charcoal Leather",
                 37302,
                 new MaterialConfig() { WeightMultiplier = 0.9f, NailHealthMultiplier = 1.1f, MaxCraftingDamageMultiplier = 0.9f },
-                new Vector4(0.1f, 0.1f, 0.1f, 1f),
-                new Vector4(0.2f, 0.2f, 0.2f, 1f),
-                new Vector4(0.3f, 0.3f, 0.3f, 1f),
+                new Vector4(0.05f, 0.05f, 0.05f, 1f),
+                new Vector4(0.15f, 0.15f, 0.15f, 1f),
+                new Vector4(0.25f, 0.25f, 0.25f, 1f),
                 true,
                 0.35f,
                 0.35f,
@@ -460,10 +460,10 @@ namespace CGNiksCustomMaterialVariants
                 "Light Gray Canvas",
                 61791,
                 new MaterialConfig() { WeightMultiplier = 0.95f, NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 1.1f },
+                new Vector4(0.53f, 0.53f, 0.53f, 1f),
                 new Vector4(0.6f, 0.6f, 0.6f, 1f),
-                new Vector4(0.7f, 0.7f, 0.7f, 1f),
-                new Vector4(0.65f, 0.65f, 0.65f, 1f),
-                new Vector4(0.7f, 0.7f, 0.7f, 1f),
+                new Vector4(0.565f, 0.565f, 0.565f, 1f),
+                new Vector4(0.6f, 0.6f, 0.6f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -486,10 +486,10 @@ namespace CGNiksCustomMaterialVariants
                 "Dark Gray Canvas",
                 61792,
                 new MaterialConfig() { WeightMultiplier = 0.8f, NailHealthMultiplier = 1.2f, MaxCraftingDamageMultiplier = 0.8f },
-                new Vector4(0.35f, 0.35f, 0.35f, 1f),
-                new Vector4(0.4f, 0.4f, 0.4f, 1f),
-                new Vector4(0.375f, 0.375f, 0.375f, 1f),
-                new Vector4(0.4f, 0.4f, 0.4f, 1f),
+                new Vector4(0.26f, 0.26f, 0.26f, 1f),
+                new Vector4(0.3f, 0.3f, 0.3f, 1f),
+                new Vector4(0.28f, 0.28f, 0.28f, 1f),
+                new Vector4(0.3f, 0.3f, 0.3f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -512,10 +512,10 @@ namespace CGNiksCustomMaterialVariants
                 "White Canvas",
                 61793,
                 new MaterialConfig() { },
-                new Vector4(0.8f, 0.8f, 0.7f, 1f),
-                new Vector4(0.9f, 0.9f, 0.8f, 1f),
-                new Vector4(0.85f, 0.85f, 0.75f, 1f),
-                new Vector4(0.9f, 0.9f, 0.8f, 1f),
+                new Vector4(0.7f, 0.7f, 0.65f, 1f),
+                new Vector4(0.8f, 0.8f, 0.75f, 1f),
+                new Vector4(0.75f, 0.75f, 0.7f, 1f),
+                new Vector4(0.8f, 0.8f, 0.75f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -538,10 +538,10 @@ namespace CGNiksCustomMaterialVariants
                 "Light Brown Canvas",
                 61794,
                 new MaterialConfig() { WeightMultiplier = 1.1f, NailHealthMultiplier = 0.6f, MaxCraftingDamageMultiplier = 0.6f },
-                new Vector4(0.5f, 0.333f, 0f, 1f),
-                new Vector4(0.6f, 0.4f, 0f, 1f),
-                new Vector4(0.55f, 0.366f, 0f, 1f),
-                new Vector4(0.6f, 0.4f, 0f, 1f),
+                new Vector4(0.75f, 0.51f, 0.19f, 1f),
+                new Vector4(0.85f, 0.55f, 0.2f, 1f),
+                new Vector4(0.8f, 0.53f, 0.195f, 1f),
+                new Vector4(0.85f, 0.55f, 0.2f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -564,10 +564,10 @@ namespace CGNiksCustomMaterialVariants
                 "Dark Brown Canvas",
                 61795,
                 new MaterialConfig() { WeightMultiplier = 1.2f, NailHealthMultiplier = 0.8f, MaxCraftingDamageMultiplier = 0.8f },
-                new Vector4(0.5f * 0.7f, 0.333f * 0.7f, 0f, 1f),
-                new Vector4(0.6f * 0.7f, 0.4f * 0.7f, 0f, 1f),
-                new Vector4(0.55f * 0.7f, 0.366f * 0.7f, 0f, 1f),
-                new Vector4(0.6f * 0.7f, 0.4f * 0.7f, 0f, 1f),
+                new Vector4(0.75f * 0.35f, 0.51f * 0.35f, 0.19f * 0.35f, 1f),
+                new Vector4(0.85f * 0.35f, 0.55f * 0.35f, 0.2f * 0.35f, 1f),
+                new Vector4(0.8f * 0.35f, 0.53f * 0.35f, 0.195f * 0.35f, 1f),
+                new Vector4(0.85f * 0.35f, 0.55f * 0.35f, 0.2f * 0.35f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -590,10 +590,10 @@ namespace CGNiksCustomMaterialVariants
                 "Black Canvas",
                 61796,
                 new MaterialConfig() { NailHealthMultiplier = 1.2f },
+                new Vector4(0.12f, 0.12f, 0.12f, 1f),
                 new Vector4(0.15f, 0.15f, 0.15f, 1f),
-                new Vector4(0.2f, 0.2f, 0.2f, 1f),
-                new Vector4(0.175f, 0.175f, 0.175f, 1f),
-                new Vector4(0.2f, 0.2f, 0.2f, 1f),
+                new Vector4(0.135f, 0.135f, 0.135f, 1f),
+                new Vector4(0.15f, 0.15f, 0.15f, 1f),
                 true,
                 0.5f,
                 0.5f,
@@ -627,8 +627,8 @@ namespace CGNiksCustomMaterialVariants
                 "White Rope",
                 35211,
                 new MaterialConfig() { },
-                new Vector4(0.6f, 0.6f, 0.6f, 1f),
-                new Vector4(0.8f, 0.8f, 0.8f, 1f),
+                new Vector4(0.7f, 0.7f, 0.7f, 1f),
+                new Vector4(0.9f, 0.9f, 0.9f, 1f),
                 true,
                 0.35f,
                 0.35f,
@@ -793,7 +793,7 @@ namespace CGNiksCustomMaterialVariants
 
         private void SetUpDyeRecipes()
         {
-            new DyeRecipe(
+            DyeRecipe.Create(
                 "Pink Leather Recipe",
                 37201,
                 DyeingAPI.Core.leatherPrefabHashes,
@@ -801,10 +801,14 @@ namespace CGNiksCustomMaterialVariants
                 false,
                 [27100u],
                 37311u,
-                [Color.HSVToRGB(312f/360f, 0.915f, 0.87f)]
+                [Color.HSVToRGB(312f/360f, 0.915f, 0.87f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
             );
 
-            new DyeRecipe(
+            DyeRecipe.Create(
                 "Pink Canvas Recipe",
                 37202,
                 DyeingAPI.Core.canvasPrefabHashes,
@@ -812,10 +816,14 @@ namespace CGNiksCustomMaterialVariants
                 false,
                 [27100u],
                 61797u,
-                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)]
+                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
             );
 
-            new DyeRecipe(
+            DyeRecipe.Create(
                 "Pink Rope Recipe",
                 37203,
                 DyeingAPI.Core.ropePrefabHashes,
@@ -823,7 +831,56 @@ namespace CGNiksCustomMaterialVariants
                 false,
                 [27100u],
                 35217u,
-                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)]
+                [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Charcoal Leather Recipe",
+                37204,
+                DyeingAPI.Core.leatherPrefabHashes,
+                [10201u],
+                false,
+                [],
+                37302u,
+                [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
+                180,
+                0.5f,
+                0.1f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Black Canvas Recipe",
+                37205,
+                DyeingAPI.Core.canvasPrefabHashes,
+                [10202u],
+                false,
+                [],
+                61796u,
+                [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
+                180,
+                0.5f,
+                0.1f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Black Rope Recipe",
+                37206,
+                DyeingAPI.Core.ropePrefabHashes,
+                [10203u],
+                false,
+                [],
+                35214u,
+                [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
+                180,
+                0.5f,
+                0.1f,
+                [44872u]
             );
         }
     }
