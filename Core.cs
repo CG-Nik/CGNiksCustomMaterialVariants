@@ -450,9 +450,19 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Leather",
                 37311,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 2/3f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 2 / 3f),
                 Color.HSVToRGB(312f / 360f, 0.915f, 0.75f),
                 Color.HSVToRGB(312f / 360f, 0.915f, 1f),
+                false
+            );
+
+            AddLeather(
+                "Dark Blue Leather",
+                37312,
+                new MaterialConfig() { NailHealthMultiplier = 1.2f, MaxCraftingDamageMultiplier = 0.8f },
+                new Vector4(0.14f * 0.67f, 0.25f * 0.67f, 0.375f * 0.67f, 1f),
+                new Vector4(0.14f, 0.25f, 0.375f, 1f),
+                new Vector4(0.14f * 1.33f, 0.25f * 1.33f, 0.375f * 1.33f, 1f),
                 false
             );
 
@@ -616,10 +626,21 @@ namespace CGNiksCustomMaterialVariants
                 "Pink Canvas",
                 61797,
                 new MaterialConfig() { NailHealthMultiplier = 0.9f, MaxCraftingDamageMultiplier = 0.9f },
-                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 7/8f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 7 / 8f),
                 Color.HSVToRGB(312f / 360f, 0.915f, 0.87f),
-                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 15/16f),
+                Color.HSVToRGB(312f / 360f, 0.915f, 0.87f * 15 / 16f),
                 Color.HSVToRGB(312f / 360f, 0.915f, 0.87f),
+                false
+            );
+
+            AddCanvas(
+                "Dark Blue Canvas",
+                61798,
+                new MaterialConfig() { NailHealthMultiplier = 1.2f, MaxCraftingDamageMultiplier = 0.8f },
+                new Vector4(0.14f * 0.8f, 0.25f * 0.8f, 0.375f * 0.8f, 1f),
+                new Vector4(0.14f, 0.25f, 0.375f, 1f),
+                new Vector4(0.14f * 0.9f, 0.25f * 0.9f, 0.375f * 0.9f, 1f),
+                new Vector4(0.14f, 0.25f, 0.375f, 1f),
                 false
             );
 
@@ -776,6 +797,15 @@ namespace CGNiksCustomMaterialVariants
                 false
             );
 
+            AddRope(
+                "Dark Blue Rope",
+                35218,
+                new MaterialConfig() { NailHealthMultiplier = 1.2f, MaxCraftingDamageMultiplier = 0.8f },
+                new Vector4(0.14f * 0.75f, 0.25f * 0.75f, 0.375f * 0.75f, 1f),
+                new Vector4(0.14f, 0.25f, 0.375f, 1f),
+                false
+            );
+
             List<Distribution.Item> items = (List<Distribution.Item>)MaterialDistributionAPI.Core.crystalWyrmMaterialDistribution.GetType().GetField("items", BindingFlags.Instance | BindingFlags.NonPublic).GetValue(MaterialDistributionAPI.Core.crystalWyrmMaterialDistribution);
 
             for (int i = items.Count - 1; i >= 0; i--)
@@ -880,6 +910,96 @@ namespace CGNiksCustomMaterialVariants
                 180,
                 0.5f,
                 0.1f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Dark Blue Leather Recipe",
+                37207,
+                DyeingAPI.Core.leatherPrefabHashes,
+                [10201u],
+                false,
+                [1180u],
+                37312u,
+                [new Color(0.14f, 0.25f, 0.375f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Dark Blue Canvas Recipe",
+                37208,
+                DyeingAPI.Core.canvasPrefabHashes,
+                [10202u],
+                false,
+                [1180u],
+                61798u,
+                [new Color(0.14f, 0.25f, 0.375f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "Dark Blue Rope Recipe",
+                37209,
+                DyeingAPI.Core.ropePrefabHashes,
+                [10203u],
+                false,
+                [1180u],
+                35218u,
+                [new Color(0.14f, 0.25f, 0.375f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "White Leather Recipe",
+                37210,
+                DyeingAPI.Core.leatherPrefabHashes,
+                [10201u],
+                false,
+                [],
+                37310u,
+                [new Color(0.8f, 0.8f, 0.8f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "White Canvas Recipe",
+                37211,
+                DyeingAPI.Core.canvasPrefabHashes,
+                [10202u],
+                false,
+                [],
+                61793u,
+                [new Color(0.8f, 0.8f, 0.8f)],
+                15,
+                0.15f,
+                0.15f,
+                [44872u]
+            );
+
+            DyeRecipe.Create(
+                "White Rope Recipe",
+                37212,
+                DyeingAPI.Core.ropePrefabHashes,
+                [10203u],
+                false,
+                [],
+                35211u,
+                [new Color(0.8f, 0.8f, 0.8f)],
+                15,
+                0.15f,
+                0.15f,
                 [44872u]
             );
         }
