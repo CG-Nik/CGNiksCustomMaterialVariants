@@ -834,8 +834,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(312f/360f, 0.915f, 0.87f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -849,8 +848,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -864,8 +862,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(312f / 360f, 0.915f, 0.87f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -879,8 +876,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
                 180,
                 0.5f,
-                0.1f,
-                [44872u]
+                0.1f
             );
 
             DyeRecipe.Create(
@@ -894,8 +890,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
                 180,
                 0.5f,
-                0.1f,
-                [44872u]
+                0.1f
             );
 
             DyeRecipe.Create(
@@ -909,8 +904,7 @@ namespace CGNiksCustomMaterialVariants
                 [Color.HSVToRGB(180 / 360f, 0.5f, 0.1f)],
                 180,
                 0.5f,
-                0.1f,
-                [44872u]
+                0.1f
             );
 
             DyeRecipe.Create(
@@ -924,8 +918,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.14f, 0.25f, 0.375f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -939,8 +932,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.14f, 0.25f, 0.375f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -954,8 +946,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.14f, 0.25f, 0.375f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -969,8 +960,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.8f, 0.8f, 0.8f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -984,8 +974,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.8f, 0.8f, 0.8f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
 
             DyeRecipe.Create(
@@ -999,8 +988,7 @@ namespace CGNiksCustomMaterialVariants
                 [new Color(0.8f, 0.8f, 0.8f)],
                 15,
                 0.15f,
-                0.15f,
-                [44872u]
+                0.15f
             );
         }
     }
